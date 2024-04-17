@@ -27,9 +27,13 @@ Before running the project, ensure you have the following prerequisites installe
      git clone <repository_url>
      ```
    - **Install Dependencies:**
-     ```bash
-     pip install psycopg2 beautifulsoup4 requests
-     ```
+      - `requests`: requests is a Python HTTP library that simplifies making HTTP requests, allowing developers to interact with web services and APIs seamlessly, handling tasks like authentication, cookies, and headers efficiently.
+      - `beautifulsoup4`: beautifulsoup4 is a Python library for web scraping and parsing HTML/XML documents, enabling developers to extract and manipulate data from web pages with ease.
+      - `psycopg2`: psycopg2 is a Python module that provides efficient PostgreSQL database connectivity, offering robust support for executing SQL queries and managing database transactions.
+    
+        ```bash
+        pip install psycopg2 beautifulsoup4 requests
+        ```
    - **Set up PostgreSQL Database:**
      - Ensure PostgreSQL is installed and running.
      - Update the PostgreSQL configurations in the `db.py` file to match your local setup (`pg_config` dictionary).
