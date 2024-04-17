@@ -2,10 +2,10 @@ import psycopg2
 
 # configuration for creating connection
 pg_config = {
-    'database': 'postgres',
+    'database': <database_name>,
     'host': '127.0.0.1',
-    'user': 'postgres',
-    'password': 'test',
+    'user': <username>,
+    'password': <password>,
     'port': '5432'
 }
 
